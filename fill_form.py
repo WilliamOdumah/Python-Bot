@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # URL of the page with the form
-form_url = 'https://qavalidation.com/demo-form/'  # The URL of the web form you want to fill out.
+form_url = 'https://qavalidation.com/demo-form/'  # The URL of the web form we want to fill out.
 
 # Form data
 first_name = 'William'  # The name to be filled in the form.
@@ -16,12 +16,12 @@ last_name = 'Odumah'
 full_name = 'William Odumah'
 email = 'williamodumah@gmail.com'  # The email to be filled in the form.
 gender = 'Male'
-phone_number = '2046982982'
-street = '2815 Pembina Highway'
+phone_number = '2000000000'
+street = '2000 address highway'
 city = 'Winnipeg'
 state = 'Manitoba'
 country = 'Canada'
-postal_code = 'R3T4Y8'
+postal_code = 'R3T000'
 your_message = 'This is a test message.'  # The message to be filled in the form.
 
 # Initialize WebDriver
